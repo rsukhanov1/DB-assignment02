@@ -22,4 +22,3 @@ GROUP BY
     ab.Title, ab.Author, ab.`Main Genre`, ab.`Sub Genre`, gr.genre
 ORDER BY avg_popular_rating DESC
 LIMIT 100;
-
